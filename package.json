@@ -1,0 +1,39 @@
+{
+  "name": "video_streaming_app",
+  "version": "1.0.0",
+  "description": "backend api for video streaming application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules ./src/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "video",
+    "streaming",
+    "app",
+    "youtube",
+    "api"
+  ],
+  "author": "Muhammad Touseef",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.3.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "get-video-duration": "^4.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "mongoose-aggregate-paginate-v2": "^1.1.2",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^10.0.0"
+  }
+}
